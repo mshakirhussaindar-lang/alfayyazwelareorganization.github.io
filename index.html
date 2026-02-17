@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfayaz Welfare Trust | Excellence in Humanity</title>
+  <meta name="description"
+    content="Alfayaz Welfare Trust: A premium welfare organization serving humanity with excellence, transparency, and compassion.">
+
+  <!-- Fonts & Icons (Premium) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="script.js">
+  <!-- AOS (Animate on Scroll) for premium feel -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =================== PREMIUM NAVBAR =================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-image-placeholder"><img src="image/profile image.png" alt="Alfayaz Logo"></div>
+        <div class="logo-text">
+          <span class="logo-arabic">الفیاض ویلفیئر آرگنائزیشن</span>
+          <span class="logo-english">ALFAYAZ WELFARE ORGANIZATION</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link">Home</a>
+        <div class="nav-item">
+          <a href="#programs" class="nav-link">Programs <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="#education" class="dropdown-item"><i class="fas fa-book"></i> Education</a>
+            <a href="#health" class="dropdown-item"><i class="fas fa-heartbeat"></i> Health</a>
+            <a href="#community" class="dropdown-item"><i class="fas fa-users"></i> Community</a>
+          </div>
+        </div>
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="donation.html" class="nav-donate"><i class="fas fa-heart"></i> Donate</a>
+        <div id="langToggle" class="lang-switcher"><i class="fas fa-globe"></i> EN</div>
+      </div>
+      <button id="mobileBtn" class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a class="mobile-menu-item" href="#hero"><i class="fas fa-home"></i> Home</a>
+      <div class="mobile-menu-item" onclick="toggleMobileDropdown('mobilePrograms')"><i class="fas fa-heart"></i>
+        Programs <i class="fas fa-chevron-down" style="margin-left:auto;"></i></div>
+      <div class="mobile-dropdown-content" id="mobilePrograms">
+        <a href="#education" class="mobile-menu-item"><i class="fas fa-book"></i> Education</a>
+        <a href="#health" class="mobile-menu-item"><i class="fas fa-heartbeat"></i> Health</a>
+        <a href="#community" class="mobile-menu-item"><i class="fas fa-users"></i> Community</a>
+      </div>
+      <a class="mobile-menu-item" href="#team"><i class="fas fa-users"></i> Team</a>
+      <a class="mobile-menu-item" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      <a class="mobile-menu-item" href="donation.html"
+        style="background:var(--secondary); color:var(--primary); border-radius:60px; margin-top:16px;"><i
+          class="fas fa-heart"></i> Donate</a>
+    </div>
+  </nav>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" data-aos="fade-up">Serving Humanity <span>With Excellence</span></h1>
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+        <a href="donation.html" class="btn btn-primary"><i class="fas fa-heart"></i> Donate Now</a>
+        <a href="#programs" class="btn btn-outline"><i class="fas fa-arrow-right"></i> Our Programs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== MISSION =================== -->
+  <section class="mission" id="mission">
+    <div class="mission-card" data-aos="fade-up">
+      <p class="mission-quote">“Our mission is to uplift communities and provide sustainable solutions for education,
+        health, and social welfare.”</p>
+      <h2 class="mission-text">Empowering Humanity, One Step at a Time</h2>
+    </div>
+  </section>
+
+  <!-- =================== FOUNDER & CHAIRMAN =================== -->
+  <!-- Founder -->
+  <section class="chairman-section" data-aos="fade-up">
+    <h2 class="chairman-title">Our Founder</h2>
+    <div class="chairman-img-container">
+      <img src="image/chairman.jpg" alt="Founder Image">
+    </div>
+    <h3 class="chairman-name">Mr. Muhammad Raza Fayyaz</h3>
+    <p style="max-width:700px; margin:20px auto 0; color:var(--gray-600); font-size:18px;">
+      A visionary leader with over 15 years in social development, Raza has touched thousands of lives through education
+      and health initiatives. His passion for sustainable change drives the organization's core.
+    </p>
+  </section>
+
+  <!-- Chairman -->
+  <section class="chairman-section" style="background:white;" data-aos="fade-up">
+    <h2 class="chairman-title">Our Chairman</h2>
+    <div class="chairman-img-container">
+      <img src="image/qasim.jpg" alt="Chairman Image">
+    </div>
+    <h3 class="chairman-name">Mr. Muhammad Qasim</h3>
+    <p style="max-width:700px; margin:20px auto 0; color:var(--gray-600); font-size:18px;">
+      Chairman of Alfayaz Welfare Organization. Dedicated to serving humanity, empowering communities, and creating
+      sustainable programs for education, health, and social welfare.
+    </p>
+  </section>
+
+  <!-- =================== PROGRAMS =================== -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Our Programs</h2>
+      <div class="programs-grid">
+        <!-- Card 1 -->
+        <div class="program-card" data-aos="zoom-in-up">
+          <div class="program-image" style="background-image:url('image/edu.png');"></div>
+          <div class="program-content">
+            <h3 class="program-title">Education Support</h3>
+            <p>Providing scholarships, school supplies, and digital learning resources to underprivileged children.</p>
+            <a href="donation.html" class="btn btn-primary">Support Now</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="program-card" data-aos="zoom-in-up" data-aos-delay="100">
+          <div class="program-image" style="background-image:url('image/medical.png');"></div>
+          <div class="program-content">
+            <h3 class="program-title">Health & Medical Aid</h3>
+            <p>Free medical camps, health awareness, and essential medicines for communities in need.</p>
+            <a href="donation.html" class="btn btn-primary">Contribute</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="program-card" data-aos="zoom-in-up" data-aos-delay="200">
+          <div class="program-image" style="background-image:url('image/comn.png');"></div>
+          <div class="program-content">
+            <h3 class="program-title">Community Welfare</h3>
+            <p>Empowering local communities through skill development, microloans, and sustainable initiatives.</p>
+            <a href="join.html" class="btn btn-primary">Join Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== TEAM =================== -->
+  <section class="team" id="team">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Our Leadership</h2>
+      <div class="team-grid">
+        <!-- Team 1 -->
+        <div class="team-card" data-aos="flip-left">
+          <div class="team-avatar"><img src="image/Chairmane.png" alt=""></div>
+          <h3>Mr. Muhammad Hasnain</h3>
+          <p style="color:var(--secondary); font-weight:600;">Vice Chairman</p>
+        </div>
+        <!-- Team 2 -->
+        <div class="team-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="team-avatar"><img src="image/Sakhawat.jpg" alt=""></div>
+          <h3>Mr. Sakhawat Hussain</h3>
+          <p style="color:var(--secondary); font-weight:600;">General Secretary</p>
+        </div>
+        <!-- Team 3 -->
+        <div class="team-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="team-avatar"><img src="https://via.placeholder.com/120" alt=""></div>
+          <h3>Mr. Muhammad Sadiq</h3>
+          <p style="color:var(--secondary); font-weight:600;">Finance Manager</p>
+        </div>
+        <!-- Team 4 -->
+        <div class="team-card" data-aos="flip-left" data-aos-delay="300">
+          <div class="team-avatar"><img src="image/member.jpg" alt=""></div>
+          <h3>Muhammad Nazir</h3>
+          <p style="color:var(--secondary); font-weight:600;">Communication Secretary</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER (REFINED) ========== -->
+  <footer class="footer" id="contact">
+    <div class="footer-wave">
+      <svg preserveAspectRatio="none" viewBox="0 0 1200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 Q300,20 600,0 T1200,0 V20 H0 Z" />
+      </svg>
+    </div>
+    <div class="footer-main">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>ALFAYAZ WELFARE</h4>
+          <p>Serving humanity with passion, transparency, and dedication since inception. We believe in dignity for all.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="#mission"><i class="fas fa-chevron-right"></i> Mission</a></li>
+            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Programs</a></li>
+            <li><a href="#team"><i class="fas fa-chevron-right"></i> Team</a></li>
+            <li><a href="donation.html" target="_blank"><i class="fas fa-chevron-right"></i> Donate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACT</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt"></i> Skardu, Pakistan</li>
+            <li><i class="fas fa-phone-alt"></i> +92 355 4303930</li>
+            <li><i class="fas fa-envelope"></i> alfayyazwelfareorganization@gmail.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Fri 9am-5pm</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>NEWSLETTER</h4>
+          <p>Stay updated with our initiatives.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email">
+            <button><i class="fas fa-paper-plane"></i></button>
+          </div>
+          <p style="margin-top: 20px; font-size: 13px;">We respect your privacy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Alfayaz Welfare Trust. All Rights Reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating -->
+  <a href="https://wa.me/923554303930" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  </style>
+  <script src="script.js"></script>
+</body>
+
+</html>
